@@ -23,13 +23,11 @@
 
 // 3 - Need Help
 
-var keyValue = function(a, b){
-	for(var a in keyValue) {
-		return {c};
-		console.log(c);
-	}
-}
-keyValue('city', 'Denver');
+// var keyValue = function(a, b){
+// 	return ({[a]: b});
+	
+// }
+// console.log(keyValue('city', 'Denver'));
 
 
 // var keyValue = function(z, b){
@@ -76,7 +74,35 @@ keyValue('city', 'Denver');
 
 // 7
 
+// vowelarray = ['a', 'e', 'i', 'o', 'u']
 
+// vowels = function(str){
 
+// 	var xarray = str.split("");
+
+// 	var newarray = xarray.filter(function(element) {
+// 		for (var i=0; i< vowelarray.length; i++) {
+// 			if (element === vowelarray[i]){
+// 				return true;
+// 			}
+// 		}
+// 		return false;
+// 	})
+// 	console.log(newarray);
+// }
+
+// vowels('What evil odd ducks!');
+
+//  8
+
+or = function(a) {
+	for (var i=0; i < a.length; i++) {
+		if (a[i] === true) {
+			return true;
+		}
+	}
+	return false;
+}
+or([false, false, true, false]);
 
 
