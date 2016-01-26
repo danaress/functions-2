@@ -1,11 +1,10 @@
-// 1 - Need Help
+1 - Need Help
 
-// var getName = function() {
-// 	var obj = {}
-// 	console.log(obj.name);
-// }
+var getName = function(a) {
+	return 
+}
 
-// getName({ name: "Luisa", age: 25 });
+getName({ name: "Luisa", age: 25 });
 
 // 2 - Done
 
@@ -93,16 +92,35 @@
 
 // vowels('What evil odd ducks!');
 
-//  8
+//  9
 
-or = function(a) {
-	for (var i=0; i < a.length; i++) {
-		if (a[i] === true) {
-			return true;
-		}
-	}
-	return false;
-}
-or([false, false, true, false]);
+// or = function(a) {
+// 	for (var i=0; i < a.length; i++) {
+// 		if (a[i] === true) {
+// 			return true;
+// 		}
+// 	}
+// 	return false;
+// }
+// or([false, false, true, false]);
+
+// 10
+
+// function unique(arrstr) {
+// 	uniquearr = []
+// 	uniquearr.push(arrstr[0]);
+// 	for (var i = 1; i < arrstr.length; i++) {
+// 		var uniquebool = true;
+// 		for (var j = 0; j < uniquearr.length; j++) {
+// 			if (arrstr[i] === uniquearr[j]) {
+// 				uniquebool = false;
+// 			}
+// 		}
+// 		if (uniquebool) {
+// 			uniquearr.push(arrstr[i]);
+// 		}
+// 	}
+// 	return uniquearr;
+// }
 
 
