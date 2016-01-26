@@ -24,12 +24,10 @@
 // 3 - Need Help
 
 var keyValue = function(a, b){
-
 	for(var a in keyValue) {
 		return {c};
 		console.log(c);
 	}
-	
 }
 keyValue('city', 'Denver');
 
@@ -74,6 +72,11 @@ keyValue('city', 'Denver');
 	
 // }
 // printObject({ a: 10, b: 20, c: 30 });
+
+
+// 7
+
+
 
 
 
